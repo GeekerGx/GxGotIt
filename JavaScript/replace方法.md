@@ -5,6 +5,7 @@
 主要用法是：第一个参数为正则，第二个参数为需要替换的值。
 
 ## replace(string,string)
+
 ```js
 "this is that issue".replace('is','Is');
 // "thIs name is {name}"
