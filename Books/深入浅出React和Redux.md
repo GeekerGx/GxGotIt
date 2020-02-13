@@ -133,3 +133,32 @@ Object.assign({}, EventEmitter.prototype, {
 #### Chrome扩展包
 #### redux-immutable-state-invariant辅助包
 #### 工具应用
+
+## React组件的性能优化
+### 单个React组件的性能优化
+#### 发现浪费的渲染时间
+chrome安装React Perf插件
+#### 性能优化的时机
+> “我们应该忘记忽略很小的性能优化，可以说97%的情况下，过早的优化是万恶之源，而我们应该关心对性能影响最关键的那另外3%的代码。”  
+> ——高德纳  
+
+> 开发者永远要考虑到极端情况。  
+#### React-Redux的shouldComponentUpdate实现
+### 多个React组件的性能优化
+#### React的调和(Reconciliation)过程
+#### Key的用法
+### 用reselect提高数据获取性能
+#### 两阶段选择过程
+#### 范式化状态树
+
+## React高级组件
+> “重复是优秀系统设计的大敌。”  
+> ——Robert C.Martin  
+### 高阶组件
+#### 代理方式的高阶组件
+#### 继承方式的高阶组件
+#### 高阶组件的显示名
+#### 曾经的React Mixin
+### 以函数为子组件
+#### 实例CountDown
+#### 性能优化问题
