@@ -1,6 +1,6 @@
 # 深入浅出React和Redux
 
-## React新的前端思维方式
+## 1.React新的前端思维方式
 ### 初始化一个React项目
 create-react-app  
 ### 增加一个新的React组件
@@ -18,7 +18,7 @@ onClick（React）和onclick（HTML）
 #### Virtual DOM
 #### React工作方式的优点
 
-## 设计高质量的React组件
+## 2.设计高质量的React组件
 ### 易于维护组件的设计要素
 ### React组件的数据
 > “差劲的程序员操心代码，优秀的程序员操心数据结构和它们之间的关系。”  
@@ -48,7 +48,7 @@ onClick（React）和onclick（HTML）
 ### 组件向外传递数据
 ### React组件state和prop的局限
 
-## 从Flux到Redux
+## 3.从Flux到Redux
 ### Flux
 #### MVC 框架的缺陷
 > Model（模型）负责管理数据，大部分业务逻辑也应该放在Model中；  
@@ -107,7 +107,7 @@ Object.assign({}, EventEmitter.prototype, {
 #### 组件Context
 #### React-Redux
 
-## 模块化React和Redux应用
+## 4.模块化React和Redux应用
 ### 模块化应用要点
 ### 代码文件的组织方式
 #### 按角色组织
@@ -134,7 +134,7 @@ Object.assign({}, EventEmitter.prototype, {
 #### redux-immutable-state-invariant辅助包
 #### 工具应用
 
-## React组件的性能优化
+## 5.React组件的性能优化
 ### 单个React组件的性能优化
 #### 发现浪费的渲染时间
 chrome安装React Perf插件
@@ -151,7 +151,7 @@ chrome安装React Perf插件
 #### 两阶段选择过程
 #### 范式化状态树
 
-## React高级组件
+## 6.React高级组件
 > “重复是优秀系统设计的大敌。”  
 > ——Robert C.Martin  
 ### 高阶组件
@@ -162,3 +162,29 @@ chrome安装React Perf插件
 ### 以函数为子组件
 #### 实例CountDown
 #### 性能优化问题
+
+## 7.Redux和服务器通信
+### React组件访问服务器
+#### 代理功能访问API
+#### React组件访问服务器的生命周期
+#### React组件访问服务器的优缺点
+### Redux访问服务器
+#### redux-thunk中间件
+#### 异步action对象
+#### 异步操作的模式
+#### 异步操作的中止
+### Redux异步操作的其他方法
+#### 如何挑选异步操作方式
+#### 利用Promise实现异步操作
+
+## 11.多页面应用
+### 单页应用
+### React-Router
+#### 路由
+#### 路由链接和嵌套
+#### 默认链接
+#### 集成Redux
+### 代码分片
+#### 弹射和配置webpack
+#### 动态加载分片
+#### 动态更新Store的reducer和状态
